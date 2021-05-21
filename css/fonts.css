@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "URW";
+    src: url("../webfonts/URW-DIN-Arabic/URWDINArabic-Regular.woff2") format("woff2"), url("../webfonts/URW-DIN-Arabic/URWDINArabic-Regular.woff") format("woff"), url("../webfonts/URW-DIN-Arabic/URWDINArabic-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "URW";
+    src: url("../webfonts/URW-DIN-Arabic/URWDINArabic-Medium.woff2") format("woff2"), url("../webfonts/URW-DIN-Arabic/URWDINArabic-Medium.woff") format("woff"), url("../webfonts/URW-DIN-Arabic/URWDINArabic-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "URW";
+    src: url("../webfonts/URW-DIN-Arabic/URWDINArabic-Demi.woff2") format("woff2"), url("../webfonts/URW-DIN-Arabic/URWDINArabic-Demi.woff") format("woff"), url("../webfonts/URW-DIN-Arabic/URWDINArabic-Demi.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "URW";
+    src: url("../webfonts/URW-DIN-Arabic/URWDINArabic-Bold.woff2") format("woff2"), url("../webfonts/URW-DIN-Arabic/URWDINArabic-Bold.woff") format("woff"), url("../webfonts/URW-DIN-Arabic/URWDINArabic-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/*------------------------------ JF Flat -----------------------------*/
+
+@font-face {
+    font-family: "JF";
+    src: url("../webfonts/JF-Flat/JFFlat-Regular.woff2") format("woff2"), url("../webfonts/JF-Flat/JFFlat-Regular.woff") format("woff"), url("../webfonts/JF-Flat/JFFlat-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
