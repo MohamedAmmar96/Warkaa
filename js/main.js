@@ -209,6 +209,24 @@ $(document).ready(function() {
             $(this).toggleClass("rotate")
             $(".mo-nav .lang-list").slideToggle(300);
         });
+        $(".config-box .nav-link").click(function() {
+            $(this).toggleClass("rotate")
+            $(this).siblings(".config-list").slideToggle(300);
+        });
+        $(".currency-name").click(function() {
+            $(this).toggleClass("rotate")
+            $(".currency-list").slideToggle(300);
+        });
+        $(".sub-menu .nav-link").click(function() {
+            $(this).toggleClass("rotate")
+            $(this).siblings(".sub-list").slideToggle(300);
+        });
     }
 
+
+
+    $(".small-link").click(function() {
+        $(this).find(".small-name").fadeToggle(300);
+        // $(this).siblings(".sub-list").slideToggle(300);
+    });
 });
