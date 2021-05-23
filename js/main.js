@@ -204,6 +204,17 @@ $(document).ready(function() {
         $(".overlay-box2").fadeOut(500);
     });
 
+    $(".shop").click(function() {
+        $("body").addClass("overflow")
+        $(".cart-box").addClass("cart-open");
+        $(".overlay-box3").fadeIn(500);
+    });
+    $(".close-cart,.overlay-box3").click(function() {
+        $("body").removeClass("overflow")
+        $(".cart-box").removeClass("cart-open");
+        $(".overlay-box3").fadeOut(500);
+    });
+
     if ($(window).width() <= 991) {
         $(".lang-name").click(function() {
             $(this).toggleClass("rotate")
