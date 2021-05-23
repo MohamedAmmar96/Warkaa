@@ -215,6 +215,19 @@ $(document).ready(function() {
         $(".overlay-box3").fadeOut(500);
     });
 
+
+    $(".add-to-cart").click(function() {
+        $("body").addClass("overflow")
+        $(".popup").addClass("popup-open");
+        $(".overlay-box4").fadeIn(500);
+    });
+    $(".close-popup,.overlay-box4").click(function() {
+        $("body").removeClass("overflow")
+        $(".popup").removeClass("popup-open");
+        $(".overlay-box4").fadeOut(500);
+    });
+
+
     if ($(window).width() <= 991) {
         $(".lang-name").click(function() {
             $(this).toggleClass("rotate")
